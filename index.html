@@ -1,0 +1,393 @@
+            <!DOCTYPE html>
+            <html>
+                <title>Profile</title>
+            <head>
+                <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@400;700&display=swap" rel="stylesheet">
+                    <link rel="stylesheet" type="text/css" href="bootstrap-4.5.3-dist\css\bootstrap.min.css">
+                    <link rel="stylesheet" type="text/css" href="style.css">
+
+                    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+                    <script type="text/javascript" src="js/popper.min.js"></script>
+                    <script type="text/javascript" src="bootstrap-4.5.3-dist\js\bootstrap.min.js"></script>
+                     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">     
+                <style>
+                  img {
+     width: 300px;
+     height: 200px;
+     border: 4px solid #575D63;
+     padding: 10px;
+     margin: 20px;
+   }
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+.tombol
+{
+    font-family: sans-serif;
+    font-size: 15px;
+    background: #22a4cf;
+    color: white;
+    border: white 3px solid;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+}
+a:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover{
+    opacity:0.9;
+}
+}
+
+
+
+                </style>
+                </head>
+            <body>
+                <div class="wrap-container">
+                <div class="container">
+
+                    <nav class="navbar navbar-drc navbar-expand-sm navbar-light">
+                       <a href="home.php" class="navbar-brand">DRC</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menukita">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="menukita">
+                            <ul class="navbar-li-drc navbar-nav ml-auto">
+                                <li><a href="index.html" class="nav-link">Home</a></li>
+                                <li><a href="galery.html" class="nav-link">Gallery</a></li>
+                            
+                            </ul>
+                        </div>
+                    </nav>
+
+
+                    <div class="row">
+                
+                        <div class="col-md-12 home-drc text-center">
+                        <h1><b>DRC</b> Del Robotic Club</h1>
+                        <h4>We make life easy with robot </h4>
+                        <br>
+                        <br>
+                        <div class="row-padding">
+                        <a href="https://drcpidel.wordpress.com/sejarah-del-robotic-club/" class="tombol">Explore</a>
+                        </div>
+                        <br>
+
+                      <header style="text-align: center;">
+                         <img src="Galery/drc.jpg" width="700" height="700" style="border-radius: 10%;"/>
+     </header>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2 text-center">
+                            <h5 class="quote">Del Robotic Club (DRC) adalah salah satu club yang bergerak dibidang Embedded System / IoT yang dimana membuat sebuah rangkaian robot. DRC juga salah satu jalur untuk mahasiswa dalam menyalurkan bakat dan ide dalam bidang robotika. Tim dari DRC sering mengikuti serangkaian lomba KRI (Kontes Robot Indonesia) yang diselenggarakan setiap tahun. Para mahasiswa sangat ambisius dalam mengikuti lomba ini, lomba yang pernah diikuti antara lain , KRSTI , KRTMI , KRSBI , KRPAI.</h5>
+                            <h6 class="penulis text-muted">Wakil Ketua DRC : Ruben Siregar , Programmer</h6>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 border-line">
+                        <div class="card card-floating">
+                        <div class="card-body card-padding d-md-flex align-items-center">
+                            <div>
+                                <h5 class="card-title no-margin">Del Robotic Club</h5>
+                                <p class="no-margin text-muted">Sarana Mahasiswa Menyalurkan Ide & Bakat dalam Robotika</p>
+                            </div>
+                            <div class="ml-auto">
+                               <button class="tombol" onclick='jacascript:alert("Halo... Mau Gabung DRC? Join kita di IT DEL")'><a>Gabung Sekarang</a></button>
+                            </div>
+                        </div>    
+                        </div>
+                        </div>
+                    </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+                <div class="row row-padding d-flex align-items-center">
+                    <div class="col-md-6">
+                        <h3>Programming</h3>
+                        <p>Dalam membuat sebuah robot, para programmer atau mahasiswa sangat perlu melatih skill programmingnya. Karena untuk membuat setiap gerakan dari robot memerlukan program didalamnya.</p>
+                 
+                    </div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div class="col-md-4">
+                        <img src="code.jpg">
+                    </div>
+                </div> 
+                
+        <br>
+        <br>
+        <br>
+
+
+                <div class="row row-padding d-flex align-items-center">
+                    <div class="col-md-6">
+                        <h3>Merangkai PCB</h3>
+                        <p>PCB adalah suatu board yang mengkoneksikan komponen-komponen elektronik secara konduktif dengan jalur (track), pads, dan via dari lembaran tembaga yang dilaminasikan pada substrat non konduktif. PCB bisa berbentuk 1 layer, 2 layer atau banyak layer (multilayer).</p>
+                      
+                    </div>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div class="col-md-4">
+                        <img src="pcb.jpg">
+                    </div>
+                </div> 
+                
+        <br>
+        <br>
+
+               <div class="row row-padding d-flex align-items-center">
+                    <div class="col-md-6">
+                        <h3>Printer 3D</h3>
+                        <p>Printer 3D adalah salah satu alat / tools yang dipakai untuk mencetak alat-alat yang telah di design dalam SolidWork maupun AutoCad. Ketika diprint maka alat yang di design akan dicetak sesuai dengan ketentuan.</p>
+                      
+                    </div>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div class="col-md-4">
+                        <img src="lol.jpg">
+                    </div>
+                </div> 
+                
+        <br>
+        <br>
+
+        
+                <section class="row row-padding text-center row-divider">
+                    <div class="col-md-6 offset-md-3">
+                        <br>  <br>
+                        <h3>Software Yang Digunakan</h3>
+                        <p>Dalam membuat sebuah Robot , kita memerlukan software dalam pembuatannya. Berikut ini adalah software yang paling penting dalam pembuatan rangkaian maupun program dari sebuah robot.</p>
+                    </div>
+                    <div class="col-md-4 teknologi">
+                        <img src="arduino.jpg">
+                        <h5>Arduino IDE</h5>
+                        <p>Arduino adalah aplikasi lintas platform yang ditulis dalam fungsi-fungsi dari C dan C ++. Ini digunakan untuk menulis dan mengunggah program ke papan Arduino yang kompatibel, tetapi juga, dengan bantuan core pihak ketiga, papan pengembangan vendor lainnya.</p>
+                    </div>
+                    <div class="col-md-4 teknologi">
+                        <img src="sw.jpg">
+                        <h5>Solid Work</h5>
+                        <p>SolidWorks adalah pemodelan solid dengan desain berbantuan komputer dan program komputer rekayasa berbantuan komputer yang diterbitkan oleh Dassault Systèmes, yang berjalan terutama pada Microsoft Windows</p>
+                    </div>
+                    <div class="col-md-4 teknologi">
+                        <img src="pro.jpg">
+                        <h5>Proteus</h5>
+                        <p>Proteus Design Suite adalah perangkat alat perangkat lunak berpemilik yang digunakan terutama untuk otomatisasi desain elektronik. Perangkat lunak ini digunakan terutama oleh insinyur dan teknisi desain elektronik untuk membuat skema dan cetakan elektronik untuk pembuatan papan sirkuit cetak</p>
+                    </div>
+                </section>
+
+                </div>
+                </div>
+      
+
+       <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Del Robotic Club<i>We Makae Life Easy With Robot </i> Merupakan Unit Kegiatan Mahasiswa di IT DEL yang bergerak dibidang robotika.</p>
+          </div>
+
+    
+          <div class="col-xs-6 col-md-3">
+            <h6>Information</h6>
+            <ul class="footer-links">
+              <li><a href="https://www.linkedin.com/in/ruben-siregar-812623197/">LinkedIn</a></li>
+              <li><a href="https://github.com/ruben055">Github</a></li>
+              <li><a href="https://gitlab.com/ruben055">Gitlab</a></li>
+       
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+         <a>Ruben Mual Siregar</a>.
+            </p>
+          </div>
+
+      
+            </body>
+            </html>
